@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455E10E821E0926D00FEEE94 /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E10E321E0926900FEEE94 /* CoreMotionHelper.swift */; };
+		455E10E921E0926D00FEEE94 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E10E421E0926900FEEE94 /* GameHelper.swift */; };
+		455E10EA21E0926D00FEEE94 /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E10E521E0926900FEEE94 /* GameUtils.swift */; };
+		455E10EB21E0926D00FEEE94 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E10E621E0926900FEEE94 /* SCNAction+Extensions.swift */; };
+		455E10EC21E0926D00FEEE94 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E10E721E0926900FEEE94 /* SCNVector3+Extensions.swift */; };
+		455E10F221E0AD2800FEEE94 /* Bump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 455E10EE21E0AD2400FEEE94 /* Bump.wav */; };
+		455E10F321E0AD2800FEEE94 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 455E10EF21E0AD2400FEEE94 /* GameOver.wav */; };
+		455E10F421E0AD2800FEEE94 /* Powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 455E10F021E0AD2400FEEE94 /* Powerup.wav */; };
+		455E10F521E0AD2800FEEE94 /* Reset.wav in Resources */ = {isa = PBXBuildFile; fileRef = 455E10F121E0AD2400FEEE94 /* Reset.wav */; };
 		459EDFE921DFC955006AC2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EDFE821DFC955006AC2E9 /* AppDelegate.swift */; };
 		459EDFED21DFC955006AC2E9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EDFEC21DFC955006AC2E9 /* GameViewController.swift */; };
 		459EDFF021DFC955006AC2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459EDFEE21DFC955006AC2E9 /* Main.storyboard */; };
 		459EDFF221DFC955006AC2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459EDFF121DFC955006AC2E9 /* Assets.xcassets */; };
 		459EDFF521DFC955006AC2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459EDFF321DFC955006AC2E9 /* LaunchScreen.storyboard */; };
-		459EDFFD21DFC978006AC2E9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 459EDFFC21DFC976006AC2E9 /* art.scnassets */; };
+		45AEF4F721E04A3600FB1932 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AEF4F621E04A3300FB1932 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		455E10E321E0926900FEEE94 /* CoreMotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		455E10E421E0926900FEEE94 /* GameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		455E10E521E0926900FEEE94 /* GameUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		455E10E621E0926900FEEE94 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		455E10E721E0926900FEEE94 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		455E10EE21E0AD2400FEEE94 /* Bump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bump.wav; sourceTree = "<group>"; };
+		455E10EF21E0AD2400FEEE94 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
+		455E10F021E0AD2400FEEE94 /* Powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Powerup.wav; sourceTree = "<group>"; };
+		455E10F121E0AD2400FEEE94 /* Reset.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Reset.wav; sourceTree = "<group>"; };
 		459EDFE521DFC955006AC2E9 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459EDFE821DFC955006AC2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459EDFEC21DFC955006AC2E9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +41,7 @@
 		459EDFF121DFC955006AC2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459EDFF421DFC955006AC2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459EDFF621DFC955006AC2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		459EDFFC21DFC976006AC2E9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		45AEF4F621E04A3300FB1932 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		455E10E221E0926900FEEE94 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				455E10E321E0926900FEEE94 /* CoreMotionHelper.swift */,
+				455E10E421E0926900FEEE94 /* GameHelper.swift */,
+				455E10E521E0926900FEEE94 /* GameUtils.swift */,
+				455E10E621E0926900FEEE94 /* SCNAction+Extensions.swift */,
+				455E10E721E0926900FEEE94 /* SCNVector3+Extensions.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		455E10ED21E0AD2400FEEE94 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				455E10EE21E0AD2400FEEE94 /* Bump.wav */,
+				455E10EF21E0AD2400FEEE94 /* GameOver.wav */,
+				455E10F021E0AD2400FEEE94 /* Powerup.wav */,
+				455E10F121E0AD2400FEEE94 /* Reset.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		459EDFDC21DFC955006AC2E9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +97,12 @@
 		459EDFE721DFC955006AC2E9 /* MarbleMaze */ = {
 			isa = PBXGroup;
 			children = (
+				455E10E221E0926900FEEE94 /* GameUtils */,
+				455E10ED21E0AD2400FEEE94 /* Sounds */,
 				459EDFE821DFC955006AC2E9 /* AppDelegate.swift */,
 				459EDFEC21DFC955006AC2E9 /* GameViewController.swift */,
 				459EDFEE21DFC955006AC2E9 /* Main.storyboard */,
-				459EDFFC21DFC976006AC2E9 /* art.scnassets */,
+				45AEF4F621E04A3300FB1932 /* art.scnassets */,
 				459EDFF121DFC955006AC2E9 /* Assets.xcassets */,
 				459EDFF321DFC955006AC2E9 /* LaunchScreen.storyboard */,
 				459EDFF621DFC955006AC2E9 /* Info.plist */,
@@ -126,8 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455E10F521E0AD2800FEEE94 /* Reset.wav in Resources */,
 				459EDFF521DFC955006AC2E9 /* LaunchScreen.storyboard in Resources */,
-				459EDFFD21DFC978006AC2E9 /* art.scnassets in Resources */,
+				455E10F221E0AD2800FEEE94 /* Bump.wav in Resources */,
+				455E10F421E0AD2800FEEE94 /* Powerup.wav in Resources */,
+				455E10F321E0AD2800FEEE94 /* GameOver.wav in Resources */,
+				45AEF4F721E04A3600FB1932 /* art.scnassets in Resources */,
 				459EDFF221DFC955006AC2E9 /* Assets.xcassets in Resources */,
 				459EDFF021DFC955006AC2E9 /* Main.storyboard in Resources */,
 			);
@@ -140,8 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455E10E821E0926D00FEEE94 /* CoreMotionHelper.swift in Sources */,
+				455E10E921E0926D00FEEE94 /* GameHelper.swift in Sources */,
+				455E10EB21E0926D00FEEE94 /* SCNAction+Extensions.swift in Sources */,
+				455E10EA21E0926D00FEEE94 /* GameUtils.swift in Sources */,
 				459EDFED21DFC955006AC2E9 /* GameViewController.swift in Sources */,
 				459EDFE921DFC955006AC2E9 /* AppDelegate.swift in Sources */,
+				455E10EC21E0926D00FEEE94 /* SCNVector3+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
